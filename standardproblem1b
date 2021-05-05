@@ -22,5 +22,6 @@ tableaddvar(L,"L","")
 for L=Lmin ; L<=Lmax; L+=Lstep {
     setcellsize(L/N,L/N,L/N)
     minimize()
+    save(m)
     tablesave()
 }
