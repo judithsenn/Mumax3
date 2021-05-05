@@ -16,7 +16,7 @@ anisU = vector(1,0,0)
 m = vortex(1,-1)
 
 tableadd(m)
-tabeleadd(E_total)
+tableadd(E_total)
 tableaddvar(L,"L","")
 
 for L=Lmin ; L<=Lmax; L+=Lstep {
